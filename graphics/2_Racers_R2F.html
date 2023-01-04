@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+	  
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/common.css" />
+      <link rel="stylesheet" href="css/2_Racers_R2F.css" />
+      <style>
+         body {
+         background: url('img/layouts/flrg-two-screened.png') no-repeat;
+         }
+      </style>
+	  
+      <!-- JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/layouts/game-layout.js"></script>
+      <script src="js/utils.js"></script>
+      <script src="js/timer.js"></script>
+      <script src="js/medals.js"></script>
+   </head>
+   <body>
+   
+      <!-- Runner details -->
+      <div class="runner-container" id="runner-container1">
+         <div class="runner-name" id="runner-name1"></div>
+         <div class="medals" id="medals1">
+            <img class="medals-img" id="medals1-img" />
+         </div>
+         <div class="finalTime" id="finalTime1"></div>
+         <div class="pronouns" id="pronouns1"></div>
+      </div>
+      <div class="runner-container" id="runner-container2">
+         <div class="runner-name" id="runner-name2"></div>
+         <div class="medals" id="medals2">
+            <img class="medals-img" id="medals2-img" />
+         </div>
+         <div class="finalTime" id="finalTime2"></div>
+         <div class="pronouns" id="pronouns2"></div>
+      </div>
+      <div class="runner-container" id="runner-container3">
+         <div class="runner-name" id="runner-name3"></div>
+         <div class="medals" id="medals3">
+            <img class="medals-img" id="medals3-img" />
+         </div>
+         <div class="finalTime" id="finalTime3"></div>
+         <div class="pronouns" id="pronouns3"></div>
+      </div>
+
+      <div class="comms-container" id="comms-container1">
+         <div class="comms-name" id="commentator1Name"></div>
+         <div class="comms-pronouns" id="commentator1Pronouns"></div>
+         <div class="comms-name" id="commentator2Name"></div>
+         <div class="comms-pronouns" id="commentator2Pronouns"></div>
+      </div>
+	  
+      <!-- Timer -->
+      <div id="timer"></div>
+   </body>
+</html>

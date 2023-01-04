@@ -1,0 +1,48 @@
+{
+  "name": "frlg-23-layouts",
+  "version": "0.0.0",
+  "description": "Layouts for FRLG Any% Tournament 2023",
+  "homepage": "",
+  "author": {
+    "name": "Jordan97",
+    "email": "jordanguy1@hotmail.co.uk",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "graphics": [
+      {
+        "file": "3_Racers.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "2_Racers_R1F.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "2_Racers_R2F.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "2_Racers_R3F.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "Apache-2.0"
+}
